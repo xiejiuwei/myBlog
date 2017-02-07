@@ -71,3 +71,5 @@ deploy:
   type: git
   repo: https://git.coding.net/xiejiuwei/blog.git
   branch: master
+
+duoshuo_shortname: blog-notes
