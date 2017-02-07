@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: 九霄
-language:
+title: 九霄
+subtitle: jiuwei‘s world
+description: 只想静静地写程序
+author: Xiejiuwei
+language: zh-Hans
 timezone:
 
 # URL
@@ -63,9 +63,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@git.coding.net:xiejiuwei/Demo.git
+  branch: master
